@@ -56,7 +56,7 @@
   }
 
   .label-icon {
-    display: none;
+    display: block;
   }
 
   .bayan-body {
@@ -65,13 +65,6 @@
   }
   .bayan-body img {
     height: 40vh;
-  }
-
-  .bayan-container:hover .label-icon {
-    display: block;
-  }
-  .bayan-container:hover label {
-    color: #000000;
   }
 
   input:checked + label .label-icon {
@@ -83,9 +76,25 @@
     color: #000000;
   }
 
+
+
+@media (hover: hover) {
+  .label-icon {
+    display: none;
+  }
+
   label:hover .bayan-body{
     height: 40vh;
   }
+    
   label:hover .label-icon {
     transform: rotate(45deg);
   }
+  .bayan-container:hover label {
+    color: #000000;
+  }
+  .bayan-container:hover .label-icon {
+    display: block;
+  }
+}
+

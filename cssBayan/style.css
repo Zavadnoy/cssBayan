@@ -109,3 +109,24 @@
         font-size: 1.3em;
     }
 }
+@media (max-width: 424px) {
+    .main {
+        width: 90%;
+    }
+    .title {
+        font-size: x-large;
+    }
+    .bayan-container label {
+        font-size: 1em;
+    }
+    .bayan-body img {
+        width: 88vw;
+        height: 100%;
+      }
+    input:checked + label .bayan-body {
+        height: 100%;
+    }
+    .bayan-container .bayan-body {
+        transition: none;
+      }
+}

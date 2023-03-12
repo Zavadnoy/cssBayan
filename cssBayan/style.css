@@ -98,3 +98,14 @@
   }
 }
 
+@media (min-width: 425px) and (max-width: 1024px) {
+    .main {
+        width: 75%;
+    }
+    .title {
+        font-size: xx-large;
+    }
+    .bayan-container label {
+        font-size: 1.3em;
+    }
+}

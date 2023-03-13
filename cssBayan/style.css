@@ -57,6 +57,7 @@
 
   .label-icon {
     display: block;
+    transition: all 0.5s;
   }
 
   .bayan-body {
@@ -70,6 +71,7 @@
   input:checked + label .label-icon {
     color: #000000;
     transform: rotate(45deg);
+    transition: all 0.5s;
   }
 
   input:checked + label {
@@ -89,6 +91,7 @@
     
   label:hover .label-icon {
     transform: rotate(45deg);
+    transition: all 0.5s;
   }
   .bayan-container:hover label {
     color: #000000;
